@@ -21,3 +21,15 @@ Colorize your B&W Rails logs
     c => cyan
     w => white
     ! => <bright/bold>
+
+# how to use
+
+in your Gemfile
+
+    require 'turner_logs'
+    
+that's it.
+
+Now when you want to print out a colorized log statment, you do something like:
+  
+    Rails.logger.debug "<g>Everything is <Wb>OK."  
